@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Azerino Yogananta Gatot Subroto <azerino25@gmail.com>",
+  "scripts": {
+    "dev" : "nodemon index.js",
+    "start": "node index.js"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
